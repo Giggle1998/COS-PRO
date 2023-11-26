@@ -8,7 +8,7 @@ class Main {
             int cost = 500;
             day -= 2;
             if(day > 0)
-								// 1일당 200원씩 추가
+				// 1일당 200원씩 추가
                 cost += 200*day;
             return cost;
         }
@@ -19,7 +19,7 @@ class Main {
             int cost = 1000;
             day -= 3;
             if(day > 0)
-								// 1일당 300원씩 추가
+				// 1일당 300원씩 추가
                 cost += 300*day;
             return cost;
         }
@@ -45,8 +45,6 @@ class Main {
         String[] bookTypes = {"comic", "comic", "novel"};
         int day = 4;
         int ret = sol.solution(bookTypes, day);
-
-        // [실행] 버튼을 누르면 출력 값을 볼 수 있습니다.
         System.out.println("solution 메소드의 반환 값은 " + ret + " 입니다.");
     }
 }
